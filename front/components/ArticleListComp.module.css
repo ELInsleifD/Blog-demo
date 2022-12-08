@@ -1,0 +1,22 @@
+
+.container{
+    margin: 10% 20%;
+}
+.container ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.slider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 30px;
+}
+.slider span{
+    margin: 0 5px;
+    border-bottom: 1px solid rgb(82, 82, 82);
+    cursor: pointer;
+}
